@@ -362,3 +362,77 @@ footer {
     gap: 14px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 480px) {
+    .container {
+        width: 92%;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    .navbar ul li a {
+        font-size: 12px;
+    }
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+    .phone-area {
+        height: 290px;
+    }
+    .phone {
+        width: 210px;
+        height: 280px;
+    }
+    .hero-text {
+        padding: 20px 0 40px;
+    }
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    .buttons {
+        justify-content: center;
+    }
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px 0;
+        font-size: 11px;
+    }
+    .features {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .lower-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+    .news-item {
+        grid-template-columns: 85px 1fr;
+        gap: 10px;
+    }
+    .news-thumb {
+        min-height: 85px;
+    }
+    .section-heading h2 {
+        font-size: 21px;
+    }
+    section {
+        padding: 45px 0;
+    }
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
